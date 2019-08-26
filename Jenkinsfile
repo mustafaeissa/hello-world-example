@@ -1,4 +1,4 @@
-node('kubernetes') {
+node('docker') {
 checkout scm
 stage('build') {
     withMaven(maven: 'Default Maven') {
